@@ -37,6 +37,10 @@ IDE (vscode) shows a warning you can't overlook if you don't use the value of va
 Golang does not burn the planet. Just duckduckgo for [energy consumption programming languages](https://duckduckgo.com/?q=energy+consumption+programming+languages). C, C++ andRust are better, but having a language with garbage collector makes
 the life of a developer much easier.
 
+Strict Typing. During the last weeks I worked on a large and old code base which was new to me. It was Python code without type annotations. Before I never missed type annotations because I worked on a code base which was well known to me during the last years. But being new to a large code base
+changed my mind. I want to be able to use ctrl+click to get to the type definition.
+
+
 # About OOP
 
 Golang does not support OOP.
