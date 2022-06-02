@@ -32,6 +32,11 @@ Podcast: https://changelog.com/gotime
 
 Declared, but not used variables are an error, not just a warning.
 
+IDE (vscode) shows a warning you can't overlook if you don't use the value of variable.
+
+Golang does not burn the planet. Just duckduckgo for [energy consumption programming languages](https://duckduckgo.com/?q=energy+consumption+programming+languages). C, C++ andRust are better, but having a language with garbage collector makes
+the life of a developer much easier.
+
 # About OOP
 
 Golang does not support OOP.
