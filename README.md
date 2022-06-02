@@ -6,8 +6,20 @@ I like Python.
 
 Nevertheless I want to try something new.
 
+# Motivation
+
 Why Golang? Because I am interested in Kubernetes, and in this context almost
 all code is written in go.
+
+I do web development since 2001. I am super happy that the browser wars are over.
+
+Most things work flawlessly on all browsers.
+
+I don't like the new JavaScript based applications. They are like old (and slow) native applications.
+
+I like [htmx.org](//htmx.org), but up to now this is only a spare time thing, because we don't use it at work.
+
+I am curious and want to try something new.
 
 # Learning Ressources
 
