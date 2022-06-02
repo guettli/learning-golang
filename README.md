@@ -40,6 +40,11 @@ the life of a developer much easier.
 Strict Typing. During the last weeks I worked on a large and old code base which was new to me. It was Python code without type annotations. Before I never missed type annotations because I worked on a code base which was well known to me during the last years. But being new to a large code base
 changed my mind. I want to be able to use ctrl+click to get to the type definition.
 
+# Things I don't like in Golang
+
+Getting all keys of a map is too complicated. See [Getting a slice of keys from a map](https://stackoverflow.com/questions/21362950/getting-a-slice-of-keys-from-a-map)
+
+I am missing exceptions. But maybe I just need to get used to explicit error handling.
 
 # About OOP
 
