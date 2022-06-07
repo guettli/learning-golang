@@ -65,3 +65,24 @@ I can live without OOP.
 
 
 
+# Unicode Strings
+
+```
+package main
+
+import (
+	"fmt"
+	"unicode/utf8"
+)
+
+func main() {
+	my_string := "abc-äöü"
+	fmt.Println("len", len(my_string))
+	fmt.Println("RuneCount", utf8.RuneCountInString(my_string))
+	for index, character := range my_string {
+		fmt.Println("index:", index, 
+			" character: ", character,
+			" string(character): ", string(character))
+	}
+}
+```
