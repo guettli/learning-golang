@@ -95,6 +95,12 @@ I recommend to not use an anonymous function for starting a goroutine.
 
 The goroutine inherits the variables of the surrounding scope. This can leak resources.
 
+## Table driven tests are overrated.
+
+I prefer simple tests which test one thing after the other.
+
+
+
 I prefer to use a normal/named function to start a goroutine: `go myfunc(myarg1, myarg2, myarg3)`.
 
 This way I know exactly which values are available for myfunc().
