@@ -87,6 +87,30 @@ func main() {
 }
 ```
 
+# Not so nice
+
+## err handling verbose
+
+This would be nice:
+
+```
+value, ... := myFunc()
+```
+
+If myFunc() returns an error, the code should automatically return a wrapped error.
+
+
+## File Permissions needed
+
+[os.WriteFile](https://pkg.go.dev/os#WriteFile) needs file permissions.
+
+```
+    err := os.WriteFile("/tmp/dat1", d1, 0644)
+```
+
+
+
+
 # Misc
 
 ## Avoid go func() { ...}
