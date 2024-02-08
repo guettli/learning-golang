@@ -124,6 +124,10 @@ The goroutine inherits the variables of the surrounding scope. This can leak res
 I prefer simple tests which test one thing after the other.
 
 
+## Add a log/print statement to code which you don't own
+
+Use vendoring, but after you have found what you were looking for, remove the vendor directory again. Don't add this to your git repo.
+
 
 I prefer to use a normal/named function to start a goroutine: `go myfunc(myarg1, myarg2, myarg3)`.
 
